@@ -182,7 +182,7 @@ public class Emp_Adimn {
 		/*List<WebElement> tbody=driver.findElements(By.xpath("//input[@type='checkbox']"));
 		System.out.println(tbody.size());
 		for(int i=0;i<tbody.size()-3;i++) {
-			tbody.get(i).click();*/
+			tbody.get(i).click();*/    
 			
 		}
 		/*driver.findElement(By.xpath("//*[@id='standardView']/div[3]/div[1]/input[2]")).click();
