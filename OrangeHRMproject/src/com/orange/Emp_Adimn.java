@@ -71,7 +71,7 @@ public class Emp_Adimn {
 		else {
 			System.out.println("title not matched to"+driver.getTitle());
 		}
-		/*Thread.sleep(4000);
+		Thread.sleep(4000);
 		//verifying text
 		assertTrue(driver.findElement(By.xpath("//ul[@id='option-menu']/li")).getText().matches("Welcome admin"));
 		System.out.println("welcome admin text verifyed");
@@ -96,7 +96,7 @@ public class Emp_Adimn {
 		System.out.println("photo uploaded successfilly");
 		driver.findElement(By.xpath("//*[@id='btnEdit']")).click();
 		System.out.println("new employee added");
-		Thread.sleep(3000);*/
+		Thread.sleep(3000);
 		driver.switchTo().defaultContent();
 		//mouseover on pim mainmenu
 		WebElement element=driver.findElement(By.linkText("PIM"));
@@ -172,14 +172,20 @@ public class Emp_Adimn {
 		driver.navigate().back();
 		Thread.sleep(3000);
 		driver.switchTo().frame(0);
+		
+		WebElement table=driver.findElement(By.xpath("//table[@class='data-table']"));
+		List<WebElement>rows=table.findElements(By.tagName("tr"));
+		System.out.println(rows.size());
+		for(int i=1;i<=4;i++) {
+			driver.findElement(By.xpath("//*[@id=\'standardView\']/table/tbody/tr["+i+"]/td[1]/input")).click();
 		//clicked multiple checkboxs
-		List<WebElement> tbody=driver.findElements(By.xpath("//input[@type='checkbox']"));
+		/*List<WebElement> tbody=driver.findElements(By.xpath("//input[@type='checkbox']"));
 		System.out.println(tbody.size());
 		for(int i=0;i<tbody.size()-3;i++) {
-			tbody.get(i).click();
+			tbody.get(i).click();*/
 			
 		}
-		driver.findElement(By.xpath("//*[@id='standardView']/div[3]/div[1]/input[2]")).click();
+		/*driver.findElement(By.xpath("//*[@id='standardView']/div[3]/div[1]/input[2]")).click();
 		System.out.println("deleted successfully");
 		//driver.findElement(By.xpath("//*[@id='allCheck']")).click();
 				driver.findElement(By.xpath("//ul[@id='option-menu']/li[3]/a")).click();
