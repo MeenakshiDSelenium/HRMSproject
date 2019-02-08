@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="52381" started-at="2019-02-08T07:52:10Z" finished-at="2019-02-08T07:53:03Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="52381" started-at="2019-02-08T07:52:10Z" finished-at="2019-02-08T07:53:03Z">
+      <class name="com.hrms.Ex_ExcelDataRetrieve">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hrms.Ex_ExcelDataRetrieve@7c0e2abd]" name="setUp" is-config="true" duration-ms="5069" started-at="2019-02-08T13:22:10Z" finished-at="2019-02-08T13:22:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.hrms.Ex_ExcelDataRetrieve@7c0e2abd]" name="login" duration-ms="6930" started-at="2019-02-08T13:22:15Z" finished-at="2019-02-08T13:22:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="pim(java.lang.String, java.lang.String)[pri:0, instance:com.hrms.Ex_ExcelDataRetrieve@7c0e2abd]" name="pim" duration-ms="8420" started-at="2019-02-08T13:22:23Z" data-provider="AdminServantMaidList" finished-at="2019-02-08T13:22:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pim -->
+        <test-method status="PASS" signature="pim(java.lang.String, java.lang.String)[pri:0, instance:com.hrms.Ex_ExcelDataRetrieve@7c0e2abd]" name="pim" duration-ms="7857" started-at="2019-02-08T13:22:31Z" data-provider="AdminServantMaidList" finished-at="2019-02-08T13:22:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[vsdkgf]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[vvehhhe]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pim -->
+        <test-method status="PASS" signature="pim(java.lang.String, java.lang.String)[pri:0, instance:com.hrms.Ex_ExcelDataRetrieve@7c0e2abd]" name="pim" duration-ms="7943" started-at="2019-02-08T13:22:39Z" data-provider="AdminServantMaidList" finished-at="2019-02-08T13:22:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hewh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[whefv]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pim -->
+        <test-method status="PASS" signature="pim(java.lang.String, java.lang.String)[pri:0, instance:com.hrms.Ex_ExcelDataRetrieve@7c0e2abd]" name="pim" duration-ms="7805" started-at="2019-02-08T13:22:47Z" data-provider="AdminServantMaidList" finished-at="2019-02-08T13:22:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sdkfeg]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ehwyg]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pim -->
+        <test-method status="PASS" signature="pim(java.lang.String, java.lang.String)[pri:0, instance:com.hrms.Ex_ExcelDataRetrieve@7c0e2abd]" name="pim" duration-ms="7772" started-at="2019-02-08T13:22:55Z" data-provider="AdminServantMaidList" finished-at="2019-02-08T13:23:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[fyge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[hfeg]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pim -->
+      </class> <!-- com.hrms.Ex_ExcelDataRetrieve -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
