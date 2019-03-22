@@ -64,7 +64,7 @@ public class Ex_ExcelDataRetrieve {
 	
 	@DataProvider    (name = "AdminServantMaidList")	
 	public static Object [][] AdminServantMaidList() throws BiffException, IOException{
-		 File fss = new File("E:\\\\Book1.xls");
+		 File fss = new File("‪E:\\Book1.xls");
 	        Workbook ws= Workbook.getWorkbook(fss);
 	        Sheet s = ws.getSheet("Sheet1");
 	        int rows = s.getRows();

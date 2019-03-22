@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.hrms.DataDriven">
+      <class name="com.scroll.Teking_screensot">
         <methods>
-          <include name="login"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="screenspt1"/>
         </methods>
-      </class> <!-- com.hrms.DataDriven -->
+      </class> <!-- com.scroll.Teking_screensot -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
