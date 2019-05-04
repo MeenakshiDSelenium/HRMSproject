@@ -2,7 +2,6 @@
 <classpath>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="lib" path="E:/Selenium_Student_SW/JarFiles/testng-6.8.jar"/>
 	<classpathentry kind="lib" path="F:/Selenium/selenium-java-3.14.0/client-combined-3.14.0.jar"/>
 	<classpathentry kind="lib" path="F:/Selenium/selenium-java-3.14.0/client-combined-3.14.0-sources.jar"/>
 	<classpathentry kind="lib" path="F:/Selenium/selenium-java-3.14.0/libs/byte-buddy-1.8.15.jar"/>
@@ -14,7 +13,5 @@
 	<classpathentry kind="lib" path="F:/Selenium/selenium-java-3.14.0/libs/httpcore-4.4.9.jar"/>
 	<classpathentry kind="lib" path="F:/Selenium/selenium-java-3.14.0/libs/okhttp-3.10.0.jar"/>
 	<classpathentry kind="lib" path="F:/Selenium/selenium-java-3.14.0/libs/okio-1.14.1.jar"/>
-	<classpathentry kind="lib" path="E:/Selenium_Student_SW/JarFiles/jcommander.jar"/>
-	<classpathentry kind="lib" path="F:/Selenium/org.apache.commons.io.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
