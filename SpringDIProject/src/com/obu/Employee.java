@@ -6,7 +6,7 @@ public class Employee {
 	  
 	public Employee() {
 		System.out.println("def cons");
-	} 
+	}
 	  
 	public Employee(int id) {
 		this.id = id;
