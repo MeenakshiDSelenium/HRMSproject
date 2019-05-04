@@ -12,7 +12,7 @@ public class Simple {
 		execute(null);
 		}
 	public static void execute(Test2 obj) {
-		obj.m1();
+		//obj.m1();
 
 		
 	}
